@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="scene" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="640.0" prefWidth="360.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.stickhero.PlayScreen">
+   <children>
+      <ImageView fx:id="bg" fitHeight="646.0" fitWidth="385.0" layoutX="-2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@playScreen.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="LadooLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="281.0" layoutY="72.0" prefHeight="34.0" prefWidth="42.0" text="0" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="ScoreLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="107.0" layoutY="65.0" prefHeight="49.0" prefWidth="139.0" text="0" textFill="WHITE">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="sidhu" fitHeight="75.0" fitWidth="58.0" layoutX="71.0" layoutY="380.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@SidhuBhati.png" />
+         </image>
+      </ImageView>
+      <Rectangle fx:id="Stick" arcHeight="5.0" arcWidth="4.0" layoutX="95.0" layoutY="455.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="4.0" x="23.0" />
+   </children>
+</AnchorPane>
